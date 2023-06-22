@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Introducción a Javascript</title>
+</head>
+
+<body>
+    <section class="card-product">
+        <img src="assets/img/laptop.png" alt="Imagen computador gamer AMD">
+        <h3>Laptop Gamer AMD</h3>
+        <input type="number" placeholder="Cantidad" id="productAmount" min="1">
+        <input type="text" placeholder="Color" id="productColor" />
+        <span id="unitaryPrice">Precio: $49.000</span>
+        <div>
+            <button id="total">Calcular total</button>
+        </div>
+    </section>
+
+    <section id="totalData">
+        <p>Total: $ <span id="totalPrice">0</span></p>
+        <p>Cantidad: <span id="totalAmount">0</span></p>
+        <p id="color">Color: <span id="colorChanger" class="circle-figure"></span></p>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
